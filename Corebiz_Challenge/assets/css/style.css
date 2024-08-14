@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 1500px;
+  border: solid black; /* REMOVER*/
+}
+:root {
+  /* Default Colors*/
+  --whiteColor: #fff;
+  --blackColor: #000;
+  --grayColor: #f2f2f2;
+  --grayProductsColor: #7a7a7a;
+  --starsProductsColor: #f8475f;
+
+  /* Default Fonts*/
+  --defaultFont: Nunito, sans-serif;
+}
+
+.headerContainer {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logoMarca {
+  display: flex;
+  position: relative;
+  left: 30px;
+  width: 181px;
+  height: 41px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 121px;
+}
+
+.searchBox {
+  display: flex;
+  width: 40vw;
+  border-bottom: 1px solid var(--grayProductsColor);
+  flex-shrink: 0;
+  margin: 20px;
+  background: none;
+}
+
+.searchBox input {
+  border: none;
+  width: 40vw;
+}
+
+#searchIcon {
+  display: flex;
+  position: relative;
+  left: -38px;
+  bottom: 5px;
+}
+
+.myAccount {
+  display: flex;
+  font-family: var(--defaultFont);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.myAccountIcon {
+  padding: 5px;
+}
+
+.shopCartIcon {
+  margin-left: 21px;
+}
+
+.shopCartElipse {
+  margin-left: 5px;
+  position: relative;
+  top: 2px;
+}
+
+.shopCartElipse p {
+  display: inline-block;
+  position: relative;
+  right: 14px;
+  bottom: 3px;
+
+  color: var(--whiteColor);
+  font-family: var(--defaultFont);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+
+/* SESSÃO 2 | BANNERS
+
+
+banner { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 1500px;
+    height: 430px;
+    border: solid 1px black;
+}
+
+
+.bannerLeft {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 350px;
+    flex-shrink: 0;
+    
+}
+
+.bannerRight {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    position: relative;
+    width: 400px;
+    background: url(./assets/images/image2.svg), lightgray 50% / cover no-repeat;
+    
+    
+}
+
+*/
+/* MAIN CONTENT*/
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--whiteColor);
+  width: 1500px;
+  height: 500px; /*Altura media de 1500px*/
+  border: solid 1px var(--blackColor);
+}
+
+/* NEWS LETTER*/
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--grayColor);
+  width: 1500px;
+  height: 146px;
+  border: solid 1px var(--blackColor);
+}
+
+/* FOOTER*/
+
+footer {
+  display: flex;
+  background-color: var(--blackColor);
+  color: var(--whiteColor);
+  height: 213px;
+  width: 1500px;
+  justify-content: center;
+  align-items: center;
+}
