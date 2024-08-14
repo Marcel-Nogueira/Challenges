@@ -1,7 +1,7 @@
 # Corebiz Challenge
 
 ### Next steps:
-code refactoring
+ - Code refactoring
 
 
 My Social Media:
